@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <title>Homework04</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Kanit', sans-serif;
+        }
+        nav {
+            height: 10%;
+            display: flex;
+            justify-content: right;
+        }
+
+        body {
+            background-image: url(https://picsum.photos/id/271/4608/3072);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            color: white;
+            justify-content: center;
+            align-items: center;
+        }
+
+        main {
+            height: 85%;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 1024px;
+            height: 100vh;
+            margin: 0 auto;
+            margin-top: -50px;
+        }
+
+        .h1 {
+            text-align: center;
+        }
+
+        .myButton {
+            background-color: #44c767;
+            border-radius: 28px;
+            border: 1px solid #18ab29;
+            display: inline-block;
+            cursor: pointer;
+            color: #ffffff;
+            font-size: 20px;
+            padding: 8px 20px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #2f6627;
+        }
+
+        .myButton:hover {
+            background-color: #5cbf2a;
+        }
+
+        .myButton:active {
+            position: relative;
+            top: 1px;
+        }
+
+        .bar {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1.5rem;
+        }
+
+        .section {
+            background: white;
+            height: 12px;
+            width: 32rem;
+            box-shadow: 0 1px 4px darkgrey;
+        }
+
+        .section2 {
+            background-color: rgb(3, 22, 34);
+            height: 12px;
+            width: 25rem;
+            animation: loading 3s ease infinite;
+        }
+
+        .bar p:nth-child(3) {
+            margin-top: -19px;
+            position: relative;
+            left: 30rem;
+        }
+
+        .button {
+            box-shadow: 3px 4px 8px 0px #899599;
+            background-color: transparent;
+            border-radius: 15px;
+            border: 1px solid #edeef1;
+            display: inline-block;
+            cursor: pointer;
+            color: #eaeeee;
+            font-family: Arial;
+            font-size: 24px;
+            padding: 12px 48px;
+            text-decoration: none;
+            text-shadow: 0px 1px 0px #e1e2ed;
+        }
+
+        .button:hover {
+            background-color: #5cbf2a;
+        }
+
+        .button:active {
+            position: relative;
+            top: 1px;
+        }
+
+        .logo {
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            font-size: 30px;
+            margin-top: 2rem;
+        }
+
+        .logo a {
+            display: block;
+            background-color: #e1e2ed;
+            border: 2px white solid;
+            padding: 2px 6px;
+            border-radius: 50%;
+        }
+
+        .logo a:hover {
+            color: lightskyblue;
+            transition: .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html" style="font-size: 20px; color: whitesmoke;">Home</a>
+    </nav>
+    <main>
+        <div class="content">
+            <div class="title">
+                <h1 style="text-align: center;">UNDER <br> CONSTRUCTION</h1>
+            </div>
+            <h3>SITE NEARLY READY</h3>
+            <div class="bar">
+                <div class="section">
+                    <div class="section2"></div>
+                </div>
+                <p>0%</p>
+                <p>100%</p>
+            </div>
+            <div>
+                <button class="button">Notifly Me!</button>
+            </div>
+
+            <div class="logo">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-regular fa-envelope"></i></a>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
